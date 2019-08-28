@@ -16,12 +16,14 @@
     dc = diff --cached
     p  = pull
     pu = push
+    puf = push --force-with-lease
     s  = status
     b  = branch
     un = reset --hard HEAD
     lg = log --abbrev-commit --pretty='%h (%ad) - [%an] %s %d' --date=format:'%b %d %Y'
     as = rebase -i master --autosquash
     fix = commit --fixup
+    stat = !git diff --stat $(git merge-base HEAD "master")
 
 [color]
     ui = true
