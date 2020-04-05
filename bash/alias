@@ -17,3 +17,5 @@ alias docker_nuke='docker stop $(docker ps -a -q); docker rm -f $(docker ps -a -
 fixup () {
     git commit --fixup $(git log --oneline | sed -n "$1p" | egrep -o '(\w+)\s' | head -n 1)
 }
+
+alias td='EDITOR=vim td'
