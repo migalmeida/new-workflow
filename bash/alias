@@ -19,3 +19,5 @@ fixup () {
 }
 
 alias td='EDITOR=vim td'
+
+alias ctags="`brew --prefix`/bin/ctags"
