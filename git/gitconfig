@@ -8,7 +8,7 @@
     ignorecase = false
 
 [alias]
-    c  = commit
+    c  = commit --verbose
     g  = log --graph --decorate --oneline
     aa = add --all
     co = checkout
