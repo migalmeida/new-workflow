@@ -24,6 +24,7 @@
     as = rebase -i master --autosquash
     fix = commit --fixup
     stat = !git diff --stat $(git merge-base HEAD "master")
+    staging = push origin HEAD:staging
 
 [color]
     ui = true
