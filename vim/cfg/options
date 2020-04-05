@@ -36,6 +36,7 @@ set timeoutlen=1000 ttimeoutlen=0
 " AUTOCOMPLETE
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+set wildmenu
 
 " IGNORE NODE_MODULES
 set path+=**
