@@ -40,3 +40,6 @@ set omnifunc=syntaxcomplete#Complete
 " IGNORE NODE_MODULES
 set path+=**
 set wildignore+=**/node_modules/**
+
+" REMOVE TRAILING WHITESPACE
+autocmd BufWritePre * %s/\s\+$//e
