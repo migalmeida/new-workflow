@@ -40,7 +40,7 @@ set wildmenu
 
 " IGNORE NODE_MODULES
 set path+=**
-set wildignore+=**/node_modules/**
+set wildignore+=**/node_modules/**,node_modules/**,**/dist/**,*.map
 
 " REMOVE TRAILING WHITESPACE
 autocmd BufWritePre * %s/\s\+$//e
