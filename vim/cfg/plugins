@@ -9,5 +9,6 @@ Plug 'udalov/kotlin-vim'
 Plug 'sonph/onehalf', { 'rtp': 'vim/' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'sheerun/vim-polyglot'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
