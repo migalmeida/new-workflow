@@ -6,4 +6,3 @@ so ~/new-workflow/vim/cfg/options
 
 " Plugins configs
 so ~/new-workflow/vim/cfg/easymotion
-so ~/new-workflow/vim/cfg/vim-javascript
