@@ -1,8 +1,9 @@
-alias run='npm run' 
+alias run='npm run'
 
 alias g='git'
 
 alias vi='vim'
+alias fvi='vim $(fzf)'
 alias dc='docker-compose'
 
 alias yw='yarn workspace'
