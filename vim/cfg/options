@@ -44,3 +44,6 @@ set wildignore+=**/node_modules/**,node_modules/**,**/dist/**,*.map
 
 " REMOVE TRAILING WHITESPACE
 autocmd BufWritePre * %s/\s\+$//e
+
+" vim-closetag
+let g:closetag_filenames = '*.html,*.erb,*.js,*.md'
