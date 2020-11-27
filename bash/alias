@@ -22,3 +22,9 @@ fixup () {
 alias td='EDITOR=vim td'
 
 alias ctags="`brew --prefix`/bin/ctags"
+
+alias release-butler="cd ~/dev/talkdesk/release-butler/ && node index.js diff --owner talkdesk"
+
+alias hooks='bash <(curl -s https://gist.githubusercontent.com/dagjaneiro/1a5eb238d8d0738a630c0e3c6b756ccc/raw/install_git_hook.sh)'
+
+alias serve='python -m SimpleHTTPServer'
