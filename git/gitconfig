@@ -4,7 +4,7 @@
 
 [core]
     excludesfile = ~/.gitignore_global
-    editor = vim 
+    editor = vim
     ignorecase = false
 
 [alias]
@@ -25,12 +25,13 @@
     fix = commit --fixup
     stat = !git diff --stat $(git merge-base HEAD "master")
     staging = push origin HEAD:staging
+    rmaster = pull origin master --rebase=interactive
 
 [color]
     ui = true
-    interactive = auto 
-    branch = auto 
-    diff = auto 
+    interactive = auto
+    branch = auto
+    diff = auto
     status = auto
 
 [color "branch"]
