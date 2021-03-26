@@ -23,7 +23,7 @@ alias td='EDITOR=vim td'
 
 alias ctags="`brew --prefix`/bin/ctags"
 
-alias release-butler="cd ~/dev/talkdesk/release-butler/ && node index.js diff --owner talkdesk"
+alias release-butler="deploy-checker diff --owner talkdesk"
 
 alias hooks='bash <(curl -s https://gist.githubusercontent.com/migalmeida/28aef3688bf877616717739097ea4966/raw/5612f97e50e29afc3ac7f35f564f033f9c5c5839/install_git_hook.sh)'
 
