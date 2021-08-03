@@ -70,10 +70,9 @@
     "vim.useSystemClipboard": true,
     "editor.fontSize": 12,
     "editor.lineNumbers": "relative",
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "right",
     "git.confirmSync": false,
     "files.trimTrailingWhitespace": true,
-    "window.zoomLevel": 0,
     "workbench.iconTheme": "vscode-great-icons",
     "vim.disableAnnoyingNeovimMessage": true,
     "window.nativeTabs": false,
@@ -88,5 +87,6 @@
     "workbench.panel.location": "right",
     "files.insertFinalNewline": true,
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "githubPullRequests.fileListLayout": "tree"
 }
