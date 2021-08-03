@@ -10,3 +10,4 @@ source "$DIR/td-completion-bash"
 
 . "$DIR/z.sh"
 
+set -o vi
