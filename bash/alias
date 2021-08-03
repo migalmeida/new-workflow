@@ -28,3 +28,5 @@ alias release-butler="deploy-checker diff --owner talkdesk"
 alias hooks='bash <(curl -s https://gist.githubusercontent.com/migalmeida/28aef3688bf877616717739097ea4966/raw/5612f97e50e29afc3ac7f35f564f033f9c5c5839/install_git_hook.sh)'
 
 alias serve='python -m SimpleHTTPServer'
+
+alias tdsetup='sudo spctl --master-disable && td auth:login meza && sudo spctl --master-enable'
