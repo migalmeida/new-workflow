@@ -5,7 +5,7 @@ PATH="$NPM_PACKAGES/bin:$PATH"
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/new-workflow/bash" && pwd)"
 source "$DIR/alias"
 source "$DIR/ps1"
-fpath=(~/.zsh $fpath)
+source "$DIR/git-completion.bash"
 
 . "$DIR/z.sh"
 
