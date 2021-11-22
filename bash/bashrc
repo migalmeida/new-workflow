@@ -10,3 +10,5 @@ fpath=(~/.zsh $fpath)
 . "$DIR/z.sh"
 
 set -o vi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
