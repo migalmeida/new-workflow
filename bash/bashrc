@@ -2,11 +2,10 @@ NPM_PACKAGES="${HOME}/.npm-packages"
 
 PATH="$NPM_PACKAGES/bin:$PATH"
 
-DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/new-workflow/bash" && pwd)"
 source "$DIR/alias"
 source "$DIR/ps1"
-source "$DIR/git-completion.bash"
-source "$DIR/td-completion-bash"
+fpath=(~/.zsh $fpath)
 
 . "$DIR/z.sh"
 
