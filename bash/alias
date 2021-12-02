@@ -30,3 +30,5 @@ alias hooks='bash <(curl -s https://gist.githubusercontent.com/migalmeida/28aef3
 alias serve='python -m SimpleHTTPServer'
 
 alias tdsetup='sudo spctl --master-disable && td auth:login meza && sudo spctl --master-enable'
+
+alias shape='open ~/dev/shape/shape.code-workspace'
