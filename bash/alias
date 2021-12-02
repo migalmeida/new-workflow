@@ -10,7 +10,7 @@ alias yw='yarn workspace'
 
 alias dctests='docker-compose build tests && docker-compose run tests'
 
-alias standup='cd ~/dev/talkdesk/ && git standup -m 2 && cd - > /dev/null'
+alias standup='cd ~/dev/shape/ && git standup -m 2 && cd - > /dev/null'
 
 alias docker_nuke='docker stop $(docker ps -a -q); docker rm -f $(docker ps -a -q); docker rmi -f $(docker images -a -q); docker system prune -f; docker volume prune -f'
 
